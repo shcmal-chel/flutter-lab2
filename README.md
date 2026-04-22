@@ -1,17 +1,63 @@
-# first_flutter_app_shmal
+# Лабораторная работа №2. Знакомство с Flutter
 
-A new Flutter project.
+### Цель работы:
 
-## Getting Started
+Познакомиться с основным инструментом кроссплатформенной
+разработки — Flutter. Создать и запустить первый Flutter-проект в браузере Chrome,
+изучить структуру проекта и базовые концепции фреймворка — виджеты и дерево
+виджетов.
 
-This project is a starting point for a Flutter application.
+### Необходимые инструменты:
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter 3.35+
+- VS Code (рекомендуется для лабораторной работы), либо IntelliJ IDEA /
+  Android Studio с установленным плагином Flutter
+- Git
+- Браузер Google Chrome / Edge
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Теоретическая часть. Что такое Flutter?
+
+**Flutter** — это открытый кроссплатформенный UI-фреймворк, разработанный
+компанией Google. Он позволяет писать один код на языке Dart и собирать из него
+нативные приложения для шести платформ одновременно: Android, iOS, Web,
+Windows, macOS и Linux.
+
+### Сравнение с Jetpack Compose
+
+Вы уже работали с Jetpack Compose — декларативным UI-фреймворком для
+Android. Flutter построен на той же концепции: UI описывается как функция от
+состояния, а не через мутацию View-объектов. Это делает переход значительно проще,
+чем кажется на первый взгляд.
+
+---
+
+## Примеры кода
+
+```dart
+BoxDecoration(
+            gradient: LinearGradient(
+              colors: [
+                Colors.white,
+                Colors.blue,
+                Colors.red,
+              ],
+              begin: Alignment.topCenter,
+              end: Alignment.bottomCenter,
+            ),
+          ),
+
+```
+
+## Автор
+
+Шмаль Иван Максимович
+
+## Группа
+
+ИСП-232
+
+## Лицензия
+
+Проект создан в учебных целях.
